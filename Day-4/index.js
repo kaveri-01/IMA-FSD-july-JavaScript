@@ -43,16 +43,16 @@
 // let price = "1500";
 // let quantity = 2;
 // console.log(price * quantity);
-console.log("10" + 5);
-console.log("10" - 5);
-console.log("10" * 2);
+// console.log("10" + 5);
+// console.log("10" - 5);
+// console.log("10" * 2);
 
-console.log("20" / 2);
+// console.log("20" / 2);
 
-console.log(10 == "10"); 
-console.log(10 === "10");
+// console.log(10 == "10"); 
+// console.log(10 === "10");
 
-console.log(Boolean(0));
-console.log(Boolean(1));
-console.log(Boolean(" "));
-console.log(Boolean("Hello"));
+// console.log(Boolean(0));
+// console.log(Boolean(1));
+// console.log(Boolean(" "));
+// console.log(Boolean("Hello"));

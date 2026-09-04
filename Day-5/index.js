@@ -162,10 +162,28 @@
 //     console.log("C");
 // }
 
-let loggedIn = true;
+// let loggedIn = true;
 
-if (!loggedIn) {
-    console.log("Please login");
-} else {
-    console.log("logged in")
+// if (!loggedIn) {
+//     console.log("Please login");
+// } else {
+//     console.log("logged in")
+// }
+
+
+let username = "admin";
+let password = "1234";
+let isAccountActive = true;
+isAdmin = true;
+
+if (username === "admin" && password && "1234" && isAccountActive === true){
+    console.log("Login Successfull");
+    console.log("Access granted");
+
+    if (isAdmin === true){
+        console.log("Admin Dashboard")
+    }
+}else{
+     console.log("Login failed");
+    console.log("Access denied")
 }
