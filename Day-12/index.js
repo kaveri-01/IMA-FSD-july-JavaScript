@@ -63,9 +63,32 @@
 // }
 // greet();
 
-const user = {
-  name: "Rahul",
-  city: "Mumbai",
-};
-const { name, city } = user;
-console.log(`Welcome ${name} from ${city}`);
+// const user = {
+//   name: "Rahul",
+//   city: "Mumbai",
+// };
+// const { name, city } = user;
+// console.log(`Welcome ${name} from ${city}`);
+
+// function outer() {
+//   let count = 0;
+
+//   return function () {
+//     count++;
+//     return count;
+//   };
+// }
+
+// const counter = outer();
+// counter(); // 1
+// counter(); // 2
+
+// console.log("Start");
+
+// for (let i = 0; i < 10000000; i++) {
+//     if (i % 100 === 0) {
+//         console.log("Current value:", i);
+//     }
+// }
+
+// console.log("End");
